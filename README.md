@@ -6,7 +6,7 @@ Bot notifikasi yang menerima webhook dari Neynar API (partner resmi Farcaster) d
 
 1. **Clone repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/nabotz/warpo-casto.git
    cd farcaster-discord-bot
    ```
 
@@ -32,13 +32,10 @@ Bot notifikasi yang menerima webhook dari Neynar API (partner resmi Farcaster) d
 
 ## Konfigurasi
 
-### Discord Webhook
-1. Buka Discord server Anda
-2. Pergi ke Server Settings > Integrations > Webhooks
-3. Buat webhook baru atau gunakan yang sudah ada
-4. Copy URL webhook ke `DISCORD_WEBHOOK_URL`
+### Setting Discord Webhook
+1. buat webhook discord
 
-### Neynar Webhook
+### Setting Neynar Webhook
 1. Login ke dashboard Neynar
 2. Pergi ke Webhook settings
 3. Buat webhook baru dengan URL: `https://your-domain.com/webhook`
@@ -152,6 +149,3 @@ Bot bisa di-deploy ke berbagai platform seperti Railway, Render, Fly.io, atau He
 ### Logs
 Bot akan menampilkan log detail untuk debugging webhook, signature verification, dan event processing.
 
-## License
-
-MIT License
