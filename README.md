@@ -2,17 +2,6 @@
 
 Bot notifikasi yang menerima webhook dari Neynar API (partner resmi Farcaster) dan mengirim notifikasi ke Discord untuk event follow dan recast.
 
-## Fitur
-
-- ✅ **Follow Notifications**: Notifikasi ketika ada user yang follow
-- ✅ **Recast Notifications**: Notifikasi ketika ada user yang melakukan recast
-- ✅ **Like Notifications**: Notifikasi ketika ada user yang melakukan like
-- ✅ **HMAC Verification**: Verifikasi signature webhook menggunakan crypto.timingSafeEqual
-- ✅ **User Filtering**: Filter notifikasi berdasarkan FID atau username
-- ✅ **Error Handling**: Error handling yang komprehensif
-- ✅ **Logging**: Logging detail untuk debugging
-- ✅ **Health Check**: Endpoint untuk monitoring
-
 ## Instalasi
 
 1. **Clone repository**
